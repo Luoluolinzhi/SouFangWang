@@ -1,0 +1,475 @@
+div,ul,li,a,span,img,span,p,h4{
+	margin: 0;
+	padding: 0;
+}
+.clearfix::after{						/* 清除浮动 */
+	display: block;
+	clear: both;
+	height: 0;
+	content: "";
+}
+
+.container{
+	width: auto;
+}
+.top{
+	background-color: rgb(194,0,0);
+}
+	.top-bar{
+		width: 1200px;
+		margin:0 auto;
+		display: block;
+		position: relative;
+	}
+		/* .top-bar ul{
+			height: 50px;
+			display: inline-block;
+		}
+		.top-bar ul li{
+			display: inline-block;
+			list-style: none;
+		
+		}
+		.top-bar ul li a{
+			line-height: 50px;
+			text-decoration: none;
+			font-size: 12px;
+			color: white;
+			padding-right: 15px;
+			font-family: "Microsoft Yahei"
+		} */
+			/* .top-bar .child-ul  ul {
+				width: 100px;
+			}
+			.top-bar .child-ul  ul li{
+				float: left;
+				list-style: none;
+			} */
+
+			/* .top-bar li:hover .child-ul {
+				display: block;
+			}
+			.top-bar .child-ul {
+				display: none;
+			} */
+			.triangle-down {
+				width: 0;
+				height: 0;
+				border-left: 4px solid transparent;
+				border-right: 4px solid transparent;
+				border-top: 6px solid white;
+				display: inline-block;	
+				margin-left: 5px;	
+			} 
+			.triangle-down2 {
+				width: 0;
+				height: 0;
+				border-left: 6px solid transparent;
+				border-right: 6px solid transparent;
+				border-top: 8px solid white;
+				display: inline-block;	
+				margin-left: 5px;	
+			} 
+		.parent-ul{
+			height: 50px;
+			display: inline-block;
+			
+		}
+		.parent-ul li{
+			display: inline-block;
+			list-style: none;
+			padding: 0 10px;
+		}
+		.parent-ul a{
+			line-height: 50px;
+			text-decoration: none;
+			font-size: 12px;
+			color: white;
+		} 
+		.child-ul{
+			display: none;
+			width: 470px;
+   			position: absolute;
+   			z-index: 1000;
+   			top: 30px;
+   			left: 0px;	
+   			
+		}
+		.child-ul img{
+			padding-left: 15px;
+		}
+		.child-ul2 img{
+			padding-left: 15px;
+		}
+		.child-ul li{
+			display: block;
+			padding:5px 0;	
+			background-color: white;
+		}
+		.child-ul a{
+			line-height: 20px;
+			text-decoration: none;
+			font-size: 12px;
+			color: black;
+			padding: 0 10px;
+		}
+		.child-ul a:hover{
+			color: red;
+		}
+		.child-ul2 a:hover{
+			color: red;
+		}
+		.x:hover{
+			background: rgb(177,0,0);
+		}
+		.parent-ul li:hover .child-ul{
+			display: block;
+		}
+		.child-ul2{
+			display: none;
+   			position: absolute;
+   			z-index: 1000;
+   			top: 30px;
+   			left: 110px;
+   				
+		}
+		.child-ul2 li{
+			display: block;
+			padding:5px 0;
+			background-color: white;
+		}
+		.child-ul2 a{
+			line-height: 20px;
+			text-decoration: none;
+			font-size: 12px;
+			color: black;
+			padding: 0 10px;
+		} 
+		/* .parent-ul li a:hover{
+			background: rgb(177,0,0);
+		} */
+		.parent-ul li:hover .child-ul2{
+			display: block;
+		}
+
+		.login{
+			display: inline-block;
+			margin-left: 20px;
+		}
+		.login span{
+			display: inline-block;
+			margin: auto;
+		}
+		.login .left {
+			border-right: 1px solid white;
+		}
+		.login span a{
+			text-decoration: none;
+			font-size: 12px;
+			color: white;
+			padding:0 10px 0 10px;
+		}
+	.bg{
+		width: 100%;
+		height: 464px;
+		margin:0 auto;	
+		position: relative;
+		overflow: hidden;
+		background: url(../image/bg.jpg) center top;
+		background-repeat: no-repeat;
+
+
+	}
+		/* .bg img{
+			 
+			 float: left;
+		} */
+		.bg .bg-bar{
+			display: inline-block;
+			width: 760px;
+			height: 200px;
+			background:rgba(0,0,0,0.8);
+			position: absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            margin: auto;
+          /*   opacity: 0.8; */
+		}
+			.bg .bg-bar .s1{
+				padding-top:  30px;
+				padding-left: 20px;
+			}
+			.bg .bg-bar .s1 img{
+				float: left;
+			}
+			.bg .bg-bar .s1 span{
+				float: left;
+				padding-left: 10px;
+			}
+			.bg .bg-bar .s1 span p{
+				color: white;
+				font-size: 15px;
+				padding-top: 15px;
+			}
+			.bg .bg-bar .s1 span a{
+				text-decoration: none;
+				font-size: 15px;
+				color: white;	
+				vertical-align: -14px;
+			}
+				.bg .bg-bar .s1 span a:hover{
+					border-bottom: 1px solid white;
+				}
+			.bg .bg-bar .s2{
+				padding-top:  40px;
+				padding-left: 20px;
+			}
+				.bg-bar .s2 ul{
+					height: 50px;
+					display: inline-block;
+				}
+				.bg-bar .s2 ul li{
+					display: inline-block;
+
+					list-style: none;
+				}
+				.bg-bar .s2 ul li a{
+					line-height: 50px;
+					text-decoration: none;
+					font-size: 15px;
+					color: white;
+					padding: 10px 10px;
+					/* font-family: "Microsoft Yahei" */
+				}
+					.bg-bar .s2 ul li a:hover{
+						background-color: rgb(223,47,48);
+						border-radius: 2px;
+					}
+				.bg-bar .s3 input{
+					width: 610px;
+					height: 38px;
+					font-size: 15px;
+					margin-left: 20px;
+					margin-top: 10px;
+					float: left;
+				}
+				.bg-bar .s3 span img{
+					width: 60px;
+					height: 44px;
+					margin-top: 10px;
+					float: left;
+				}
+	.bar{
+		width: 1200px;
+		margin: auto;
+	}
+		.bar .bar1{
+			width: 232px;
+			display: inline-block;
+			border-right: 1px dashed #ddd; 
+		}
+			.bar .bar1 .b1{
+				width: 70px;
+				display: inline-block;
+			}
+				.bar .bar1 .b1 a{
+					text-decoration: none;
+					color: #df2f30;
+					font-size: 30px;
+					text-align: center;
+					line-height: 76px;
+				}
+			.bar .bar1 .b2{
+				width: 150px;
+				display: inline-block;
+			}
+				.bar .bar1 .b2  span{
+					display: block;
+					height: 38px;
+				}
+				.bar .bar1 .b2 a{
+					text-decoration: none;
+					font-size: 14px;
+					color: black;
+					line-height: 38px;
+				}
+					.bar .bar1 .b2 a:hover{
+						color: red;
+						border-bottom: 1px solid red;
+					}
+		.bar .bar2{
+			width: 232px;
+			display: inline-block; 
+		}
+			.bar .bar2 .b1{
+				width: 70px;
+				display: inline-block;
+			}
+				.bar .bar2 .b1 a{
+					text-decoration: none;
+					color: #df2f30;
+					font-size: 30px;
+					text-align: center;
+					line-height: 76px;
+				}
+			.bar .bar2 .b2{
+				width: 150px;
+				display: inline-block;
+			}
+				.bar .bar2 .b2  span{
+					display: block;
+					height: 38px;
+				}
+				.bar .bar2 .b2 a{
+					text-decoration: none;
+					font-size: 14px;
+					color: black;
+					line-height: 38px;
+				}
+					.bar .bar2
+
+
+
+
+
+
+					 .b2 a:hover{
+						color: red;
+						border-bottom: 1px solid red;
+					}
+			
+	.tetit{
+		width: 1200px;
+		margin: auto;
+	}
+		/* .tetit ul{
+			width: 1200px;
+		
+		}
+		.tetit ul li{
+			width: 390px;
+			display: inline-block;
+			height: 50px;
+			background-color: rgb(243,243,243);
+			list-style: none;
+			text-align: center;
+			line-height: 50px;
+		}
+		.tetit ul li a{
+			text-decoration: none;
+			font-size: 20px;
+			
+			
+			color: black;
+		}
+			.tetit ul li a:hover{
+				font-weight: 600;
+				
+			}
+			.tetit ul li :hover{
+				border-bottom: 2px solid red;
+			} */
+		.tetit .t1{
+			width: 390px;
+			display: inline-block;
+			height: 50px;
+			background-color: rgb(243,243,243);
+			border-bottom: 3px solid #df2f30;
+			text-align: center;
+			line-height: 50px;
+		}
+	    .tetit .t2{
+			width: 390px;
+			display: inline-block;
+			height: 50px;
+			background-color: rgb(243,243,243);
+			text-align: center;
+			line-height: 50px;
+		}
+			.tetit .t1 a , .tetit .t2 a{
+			text-decoration: none;
+			font-size: 20px;
+			color: black;
+		}
+			.tetit .t2 a:hover{
+				font-weight: 600;
+			}
+			.tetit .t2:hover{
+				border-bottom: 3px solid #df2f30;
+			}
+
+	.hottd{
+		width: 1200px;
+		margin: auto;
+	}
+		.hottd .h1{
+			float: left;
+   			width: 259px;
+   			height: 230px;
+    		border-radius: 1px;
+    		padding: 10px 10px;
+    		border: 1px solid #f3f3f3;
+    		position: relative;
+		}
+			.hottd .h1 img{
+				width: 260px;
+				height: 160px;
+			}
+			.hottd .h1 .hh1{
+			    position: absolute;
+    			left: 10px;
+    			top: 136px;
+    			width: 244px;
+    			height: 34px;
+    			line-height: 34px;
+    			padding: 0 8px;
+    			background-color: rgba(0,0,0,0.6);  			
+			}
+				.hottd .h1 .hh1 a{
+					color: #fff;
+					font-size: 14px;
+					text-decoration: none;
+				}
+				.hottd .h1 .hh1 a:hover{
+					border-bottom: 1px solid white;
+				}
+			.hottd .h1 .hh2{
+				width: 260px;
+			}
+				.hottd .h1 .hh2 .hh3{
+					width: 129px;
+					display: inline-block;
+					text-align: center;
+				}
+				.hottd .h1 .hh2 .hh3 h4 a{
+					font-size: 18px;
+					text-decoration: none;
+					color: black;
+				}
+				.hottd .h1 .hh2 .hh3 p{
+					font-size: 12px;
+					color: rgb(146,146,146);
+					overflow: hidden;
+					padding-top: 5px;
+				}
+				.hottd .h1 .hh2 .hh4{
+					width: 120px;
+					display: inline-block;
+					text-align: center;
+					background: url(../image/hottdbj.gif);
+					background-repeat: no-repeat;
+				}
+				.hottd .h1 .hh2 .hh4 h4 a{
+					font-size: 18px;
+					text-decoration: none;
+					color: red;
+				}
+				.hottd .h1 .hh2 .hh4 p{
+					font-size: 12px;
+					color: rgb(146,146,146);
+					overflow: hidden;
+					padding-top: 5px;
+				}
+
